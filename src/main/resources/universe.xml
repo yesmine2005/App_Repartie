@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universe>
+    <galaxy id="g01" type="spiral">
+        <nom>Voie Lactee</nom>
+        <age>13.6</age>
+        <etoile>
+            <nom>Soleil</nom>
+            <type>Naine jaune</type>
+        </etoile>
+        <planete>
+            <nom>Terre</nom>
+            <type>Rocheuse</type>
+            <habitants>Humains</habitants>
+        </planete>
+        <planete>
+            <nom>Mars</nom>
+            <type>Rocheuse</type>
+        </planete>
+    </galaxy>
+
+    <galaxy id="g02" type="elliptique">
+        <nom>Andromede</nom>
+        <age>10.5</age>
+        <etoile>
+            <nom>Alpha Andromedae</nom>
+            <type>Supergeante bleue</type>
+        </etoile>
+        <planete>
+            <nom>Xenon</nom>
+            <type>Gazeuse</type>
+            <habitants>Aliens</habitants>
+        </planete>
+    </galaxy>
+
+    <createur>
+        <nom>Cosmic Forge</nom>
+        <galaxy ref="g01"/>
+    </createur>
+
+    <createur>
+        <nom>Celestial Mind</nom>
+        <galaxy ref="g02"/>
+    </createur>
+</universe>
